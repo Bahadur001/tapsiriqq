@@ -1,0 +1,409 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+}
+
+.navbar{
+    display: flex;
+}
+
+.true{
+padding: 70px ;
+}
+
+.true img{
+    height: 50px;
+}
+
+.start{
+    position: relative;
+    top: 90px;
+    left: 900px;
+color: aliceblue;  
+transition: 0.3s ease;
+}
+
+.start:hover{
+    transform: scale(1.1);
+   
+}
+.start a{
+    color: black;
+}
+.wort{
+    background-image: url(WhatsApp\ Image\ 2024-03-16\ at\ 20.45.38_80cc703b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 1500px;
+    height: 1000px;
+    padding-top: 200px
+
+}
+.wort h1{
+    text-align: center;
+    align-items: center;
+    font-size: 50px
+}
+
+.section{
+    display: flex;
+}
+.slider{
+    width: 2000px;
+   
+    border-radius: 10px;
+  overflow: hidden;
+    
+}
+.slide{
+    width: 400%;      
+}
+
+.slide input{
+    display: none;
+}
+
+.st img{
+    width: 1500px;
+    height: 700px;
+
+}
+.nav_m{
+position: absolute;
+width: 800px;
+margin-top: -40px;
+justify-content: center;
+display: flex;
+
+}
+.m-btn{
+    border: 2px solid #d8d8d8;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 10px;
+  
+
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+
+}
+.m-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.metn{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.lorem{
+    padding-left: 500px;
+    font-size: 20px;
+}
+
+.wrapper{
+    display: flex;
+
+    height: 100vh;
+    width: 100%;
+    gap:10px;
+    flex-wrap: wrap;
+overflow-x: hidden;
+overflow: hidden;
+}
+.resim1{
+ position: relative;  
+ width: 600px;
+ display: flex;
+}
+.resim1 img{
+  width: 100%;
+  display: block;
+  margin: auto;
+ 
+}
+.content{
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+position: absolute;
+background: rgba(255, 253, 253, 0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0;
+transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1;
+}
+.content h1{
+    font-size: 55px;
+    color:#000000;
+    margin-bottom: 15px;
+
+}
+.content p{
+    font-size: 19px;
+    color: #000000;
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform  0.6s;
+}
+.content:hover > *{
+    transform: translateY(0px);
+    
+}
+ .resim2{
+    position: relative;  
+    width: 400px;
+    display: flex;
+ } 
+.resim2 img{
+    width: 100%;
+    display: block;
+    margin: auto;  
+}    
+
+.resim3{
+    position: relative;  
+    width: 400px;
+    display: flex;
+}
+
+.resim3 img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.container{
+    position: relative;
+}
+.text{
+    transition: opacity 0.3s ease;
+    display: inline block;
+    position: absolute;
+    padding: ;top: 5px;
+}
+.text:hover{
+    opacity: 0.5;
+}
+
+.text h1 a{
+   color: black;
+}
+.coins{
+    background-color: rgba(54, 50, 50, 0.955);
+    height: 450px;
+}
+
+.coin{
+    display: flex;
+  gap:100px;
+   color:white;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.coin h1{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.coin p{
+  font-size: 20px;
+  padding-top: 40px;
+}
+.hard{
+    display: flex;
+   margin-left: 100px;
+   gap:500px
+}
+
+.logos{
+    display: flex;
+margin-top: 100px;
+    width: 100%;
+    gap:200px;
+    flex-wrap: wrap;
+overflow-x: hidden;
+overflow: hidden;
+}
+.logo{
+    position: relative;  
+    width: 200px;
+    display: flex; 
+}
+.logo img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.logo_text{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(255, 253, 253, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    }
+    .logo_text:hover{
+        opacity: 1;
+    }
+    .logo_text h1{
+        font-size: 55px;
+        color:#000000;
+        margin-bottom: 15px;
+    
+    }
+    
+    .logo_text > *{
+        transform: translateY(25px);
+        transition: transform  0.6s;
+    }
+    .logo_text:hover > *{
+        transform: translateY(0px);}
+
+
+    .news{
+display: flex;
+gap:500px;
+margin-left: 100px;
+margin-right: 100px;
+padding-top: 100px;
+
+        }
+      
+.color{
+background-color: rgb(219, 240, 242);
+height: 500px;
+ }
+
+.man{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.woman{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    position: relative;
+   
+}
+ .woman img{
+    height: 100px;
+    transition: opacity 1s ease;  
+ }       
+ .woman img:hover{
+    opacity: 0.1;
+
+ }
+ .woman h1 a{
+    font-size: 20px;
+    color: black;
+ }
+ .woman h1 a:hover{
+    color: blue;
+ }
+ .containers{
+    position: relative;
+}
+.texts{
+    transition: opacity 0.3s ease;
+    display: inline block;
+    position: absolute;
+    padding: ;top: 50px;
+}
+.texts:hover{
+    opacity: 0.5;
+}
+
+.texts h1 a{
+   color: black;
+}
+
+
+ footer{
+    background-color: #f2f2f2;
+ }
+ .social_media{
+    text-align: center;
+ }
+ .social_media a{
+    display: inline-block;
+    margin: 0 10px;
+    color:#333;
+    text-decoration: none;
+  
+    position: relative;
+ }
+ .social_media a::after{
+    
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease;
+ }
+ .social_media a:hover::after{
+    width: 100%;
+ }
+
+.dinals a{
+    position: relative;
+    display: inline-block;
+    color: black;
+    
+}
+.dinals a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease;
+
+}
+.dinals a:hover::after{
+    width: 100%;
+    
+}
+
+ .final{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  
+ }
